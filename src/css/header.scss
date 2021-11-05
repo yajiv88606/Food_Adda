@@ -1,0 +1,13 @@
+.header {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  text-align: center;
+}
+
+@media screen and (max-width: 750px) {
+  .header {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+}
