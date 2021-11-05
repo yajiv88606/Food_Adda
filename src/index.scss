@@ -23,6 +23,7 @@ body {
   background-color: var(--primary-background);
   color: var(--primary-text-color);
   padding: 10px;
+  position: relative;
 }
 
 ::-webkit-scrollbar {
@@ -49,6 +50,6 @@ Button,
 
 @media screen and (max-width: 750px) {
   * {
-    font-size: small;
+    font-size: small!important;
   }
 }

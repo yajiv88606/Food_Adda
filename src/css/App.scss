@@ -12,3 +12,37 @@
 .head {
   color: var(--secondary-text-color);
 }
+
+.headers {
+  position: fixed;
+  z-index: 10;
+  background-color: #1f2833cc;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+  padding: 20px;
+  justify-content: center;
+  align-content: center;
+  backdrop-filter: blur(10px);
+  max-height: 25vh;
+
+  .search-bar {
+    margin: auto;
+    width: 90%;
+  }
+}
+
+.content {
+  margin-top: 25vh;
+  position: absolute;
+}
+
+@media screen and (max-width: 750px) {
+  .headers {
+    max-height: 15vh !important;
+  }
+  .content {
+    margin-top: 10vh;
+    position: absolute;
+  }
+}
